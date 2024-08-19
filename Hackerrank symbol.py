@@ -36,10 +36,4 @@ for i in range(n-1,0-1,-1):
     # print('H'*(i+(i+1)).center(n+n-1,'-'))
     a='H'*(i+(i+1))
     b=a.center(f)
-    print(b.rjust(l))
-
-
-
-
-    
-    
+    print(b.rjust(l))  
